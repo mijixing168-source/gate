@@ -36,7 +36,7 @@ jobs:
         env:
           # 已部署的检测 Worker (不要改动: 检测统一走这里)
           CHECK_WORKER: ${{ secrets.DOMAIN }}
-          EDGE_HOSTS: "edgetunnel.mijixing168.workers.dev:443"
+          EDGE_HOSTS: "lee1.dpdns.org:443"
           OPTIMAL_API: ""
           CHECK_CONCURRENCY: "32"
           CHECK_TIMEOUT: "90"
